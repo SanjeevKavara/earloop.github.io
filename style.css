@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,200&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    font-size: small;
+}
+
+
+  
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 55px; 
+    background-color: black;
+}
+nav ul li{
+ padding: 0 20px;   
+}
+
+.brand img{
+    width: 50px;
+    
+
+}
+
+.brand{
+    font-family: 'Prompt', sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: dodgerblue;
+
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url("./bg1.jpg");
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+
+#progressBar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 74px;
+}
+
+.songlist h1{
+    padding-top: 10px;
+    padding-left: 5px;
+    font-size: 25px;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+   
+    padding-right: 5px;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    cursor: pointer;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0px 23px ;
+    border-radius: 34px;
+    
+}
+.timestamp{
+    display: flex;
+    margin: 0px 23px;
+   
+}
+.songItem i{
+    padding-left: 5px;
+    cursor: pointer;
+}
+.songinfo{
+    position: absolute;
+    left:10vw;
+    font-size: small;
+}

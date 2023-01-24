@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ear Loop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="./icon1.jpg" alt="EarLoop">Ear-Loop</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+       
+        <div class="songlist">
+             <h1>Best Songs</h1>
+             <div class="songItemContainer">
+                <div class="songItem" id="0">
+                    <img src="./unravel.jpeg" alt="1">
+                    <span class="songName">Unravel Piano</span>
+                    <span class="songlistplay"><span class="timestamp">04:08<i></i></span></span>
+                </div>
+                <div class="songItem" id="1">
+                    <img src="./your lie april.jpeg" alt="2">
+                    <span class="songName">Your lie in April</span>
+                    <span class="songlistplay"><span class="timestamp">04:53<i></i></span></span>
+                </div>
+                <div class="songItem" id="2">
+                    <img src="./yourname.jpeg" alt="3">
+                    <span class="songName">sparkle</span>
+                    <span class="songlistplay"><span class="timestamp">03:06<i></i></span></span>
+                </div>
+                <div class="songItem" id="3">
+                    <img src="./aotash.jpeg" alt="4">
+                    <span class="songName">Ashes on Fire</span>
+                    <span class="songlistplay"><span class="timestamp">05:07<i></i></span></span>
+                </div>
+             </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="progressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i id="prev" class="fa-solid fa-3x fa-step-backward"></i>
+            <i  class="fa-solid fa-3x fa-play-circle" id="masterPlay"></i>
+            <i id="next" class="fa-solid fa-3x fa-step-forward"></i>
+        </div>
+        <div class="songinfo">
+           
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/b295c53cb8.js" crossorigin="anonymous"></script>
+</body>
+</html>
